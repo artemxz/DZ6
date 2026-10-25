@@ -1,0 +1,13 @@
+   .vs/
+   *.sln
+   *.vcxproj
+   *.vcxproj.user
+   x64/
+   Debug/
+   Release/
+   build/
+   CMakeCache.txt
+   CMakeFiles/
+   *.exe
+   *.obj
+   *.pdb
