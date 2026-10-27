@@ -1,6 +1,5 @@
 ﻿#include <iostream>
 #include <vector>
-
 #include "statistics.h"
 #include "MinStatistics.h"
 #include "MaxStatistics.h"
@@ -20,7 +19,7 @@ int main() {
     stats.push_back(new MeanStatistics());
     stats.push_back(new StdStatistics());
 
-    std::cout << "Введите числа (для завершения нажмите Ctrl+Z и Enter):\n";
+    std::cout << "Введи число (для завершения нажмите Ctrl+Z и Enter):\n";
 
     
     double value;
@@ -31,7 +30,7 @@ int main() {
         }
     }
 
-    std::cout << "\n--- Результаты статистики ---\n";
+    std::cout << "\n Результаты статистики \n";
 
     for (Statistics* stat : stats) {
         stat->print();
